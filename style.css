@@ -1,6 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&family=Raleway:wght@400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+.max-width{
+    padding: 0 80px;
+    max-width: 1300px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: yellow;
+    font-family: 'Raleway';
+}
+.navbar .logo a{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline;
+}
+.navbar .menu li a{
+    color: black;
 }
