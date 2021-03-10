@@ -61,6 +61,30 @@
     min-height: 500px;
     font-family: 'Raleway', 'Public Sans';
 }
+.home .home-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.home .home-content .right{
+    width: 45%;
+
+}
+.home .home-content .left{
+    width: 50%;
+
+}
+.home .home-content .right img{
+    padding-top: 200px;
+    height: 700px;
+    width: 600px;
+    object-fit: cover;
+    align-content: center;
+}
+.about{
+    font-family: 'Public Sans';
+}
 
 .home .max-width{
     margin: auto 0 auto 49px;
@@ -69,7 +93,7 @@
     font-size: 27px;
 }
 .home .home-content .text2{
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 600;
     margin: -3px;
 }
