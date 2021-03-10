@@ -15,7 +15,7 @@ function myFunction(x) {
   }
 //typing script
 var typed = new Typed(".typing",{
-    strings: ["an Entrepreneur","a Programmer", "a Flutter developer","a Business Devloper"],
+    strings: ["an Entrepreneur","a Programmer", "a Flutter developer","a Business Analyst"],
     typeSpeed: 100,
     backSpeed: 70,
     loop: true,
