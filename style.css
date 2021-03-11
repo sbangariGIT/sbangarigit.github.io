@@ -85,12 +85,12 @@
 /* section{
     padding: 100px 0;
 } */
-.about{
+.about, .skills{
     padding: 50px 0;
-    font-family: 'Public Sans';
+    font-family: 'Raleway', 'Public Sans';
 }
 .about .title{
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'Public Sans';
     font-size: 35px;
     text-align: center;
 }
@@ -109,7 +109,7 @@
     width: 50%;
 }
 .about .about-content .right .info{
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify;
     padding-bottom: 10px;
 }
@@ -180,6 +180,57 @@ transition: all 0.3sec ease;
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
   }
+
+  .skills .title{
+    font-family: 'Raleway', 'Public Sans';
+    font-size: 35px;
+    text-align: center;
+}
+.skills{
+    color: white;
+    background: black;
+}
+.skills .skills-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skills .skills-content .card{
+    margin-top: 10px;
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.skills .skills-content .card i{
+    font-size: 45px;
+    color: yellowgreen;
+}
+.skills .skills-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.skills .skills-content .card .box{
+    transition: all 0.3s ease;
+}
+.skills .skills-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+.skills .skills-content .card:hover {
+    color: yellowgreen;
+}
+.skills .skills-content .card:hover i{
+    color: white;
+}
+
+
   @media (max-width: 1300px){
    .home .max-width{
        margin-left: 0px;
@@ -213,6 +264,12 @@ transition: all 0.3sec ease;
       .max-width{
           padding: 0 50px;
       }
+      .skills .skills-content .card .text{
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
       .navbar .menu{
           position: fixed;
           text-align: center;
