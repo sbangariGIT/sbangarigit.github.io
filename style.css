@@ -82,10 +82,55 @@
     object-fit: cover;
     align-content: center;
 }
+/* section{
+    padding: 100px 0;
+} */
 .about{
+    padding: 50px 0;
     font-family: 'Public Sans';
 }
+.about .title{
+    font-family: 'Raleway';
+    font-size: 35px;
+    text-align: center;
+}
+.about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about .about-content .left{
+    padding: 10px;
+    width: 50%;
+}
+.about .about-content .right{
+    padding-top: 40px;
+    width: 50%;
+}
+.about .about-content .right .info{
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
 
+.about .about-content .right a{
+display: inline;
+background: yellowgreen;
+color: black;
+font-size: 20px;
+padding: 1px 10px;
+margin-top: 40px;
+border-radius: 6px;
+border: 2px solid yellowgreen;
+transition: all 0.3sec ease;
+}
 .home .max-width{
     margin: auto 0 auto 49px;
 }
@@ -135,7 +180,35 @@
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
   }
+  @media (max-width: 1300px){
+   .home .max-width{
+       margin-left: 0px;
+   }
+  }
+  @media (max-width: 945px){
+    .max-width{
+        max-width: 800px;
+    }
+    .about .about-content .column{
+        width: 100%;
+    }
+    .about .about-content .column .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .column .rigth{
+        flex: 100%;
 
+    }
+   }
+
+  @media (max-width: 1104px){
+    .about .about-content .left img{
+        height: 300px;
+        width: 300px;
+    }
+   }
   @media (max-width: 990px){
       .max-width{
           padding: 0 50px;
@@ -162,6 +235,10 @@
         margin-left: 25px;
         font-size: 25px;
         font-weight: 500;
+    }
+
+    .about .about-content .column{
+        width: 50%;
     }
       .navbar .menu li{
           display: block;
