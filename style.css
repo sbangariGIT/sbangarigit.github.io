@@ -46,7 +46,7 @@
     transition: color 0.4s ease;
 }
 .navbar .menu li a:hover{
-    color: yellowgreen;
+    color: gray;
     margin-left: 25px;
     font-size: 18px;
     font-weight: 500;
@@ -110,7 +110,6 @@
 }
 .about .about-content .right .info{
     font-size: 20px;
-    text-align: justify;
     padding-bottom: 10px;
 }
 .about .about-content .left img{
@@ -229,9 +228,17 @@ transition: all 0.3sec ease;
 .skills .skills-content .card:hover i{
     color: white;
 }
+.projects{
+    color: white;
+    background: black;
+}
+.projects .max-width .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
 
-
-  @media (max-width: 1300px){
+  @media only screen and(max-width: 1300px){
    .home .max-width{
        margin-left: 0px;
    }
