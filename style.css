@@ -93,6 +93,7 @@
     font-family: 'Raleway', 'Public Sans';
     font-size: 35px;
     text-align: center;
+    font-weight: 400;
 }
 .about .about-content{
     display: flex;
@@ -184,6 +185,7 @@ transition: all 0.3sec ease;
     font-family: 'Raleway', 'Public Sans';
     font-size: 35px;
     text-align: center;
+    font-weight: 400;
 }
 .skills{
     color: white;
@@ -229,14 +231,13 @@ transition: all 0.3sec ease;
     color: white;
 }
 .projects{
-padding-top: 40px;
-padding-bottom: 20px;
+    padding-top: 20px;
 }
 .projects .max-width .title{
     color: black;
     text-align: center;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 35px;
+    font-weight: 400;
 }
 .projects .carousel{
     padding-top: 10px;
@@ -248,7 +249,7 @@ padding-bottom: 20px;
     justify-content: center;
 }
 .projects .carousel .card{
-    background-color: grey;
+    background-color: rgb(235, 231, 231);
     border-radius: 6px;
     padding: 25px 35px;
     border: 1px solid white;
@@ -261,13 +262,12 @@ padding-bottom: 20px;
     border: 5px solid black;
     transition: all 0.3s ease;
 }
-
 .projects .carousel .card .box .git-icon i{
     font-size:35px;
-    color: yellowgreen;
+    color: black;
 }
 .projects .carousel .card .box:hover{
-    color: yellowgreen;
+    color: rgb(0, 0, 0);
     transform: scale(1.05);
 }
 
@@ -281,11 +281,10 @@ padding-bottom: 20px;
         color: white;
     }
 .organizations .max-width .title{
-    font-family: 'Raleway', 'Public Sans';
     text-align: center;
     font-size: 35px;
-    font-weight: 800;
     color: #fff;
+    font-weight: 400;
     }
 .organizations .carousel{
         padding-top: 10px;
@@ -304,11 +303,11 @@ padding-bottom: 20px;
         padding: 25px 35px;
         border: 1px solid black;
     }
-    .organizations .carousel .card .box:hover{
+.organizations .carousel .card .box:hover{
         color: yellowgreen;
         transform: scale(1.05);
     }
-    .organizations .carousel .card .box img{
+.organizations .carousel .card .box img{
         width: 150px;
         height: 150px;
         object-fit: cover;
@@ -323,8 +322,7 @@ padding-bottom: 20px;
     justify-content: center;
     color: black;
     text-align: center;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 35px;
 }
 .Tools .icons .top-row{
     display: flex;
@@ -379,6 +377,10 @@ padding-bottom: 20px;
     }
    }
   @media (max-width: 990px){
+    .Tools .icons img{
+        height: 70px;
+        width: 70px;
+    }
       .max-width{
           padding: 0 50px;
       }
