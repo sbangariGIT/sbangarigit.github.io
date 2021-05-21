@@ -266,6 +266,10 @@ padding-bottom: 20px;
     font-size:35px;
     color: yellowgreen;
 }
+.projects .carousel .card .box:hover{
+    color: yellowgreen;
+    transform: scale(1.05);
+}
 
 
 .organizations{
@@ -292,12 +296,17 @@ padding-bottom: 20px;
         align-items: center;
         justify-content: center;
         color: #fff;
+        transition: all 0.3s ease;
     }
 .organizations .carousel .card{
         background-color: rgb(53, 52, 52);
         border-radius: 6px;
         padding: 25px 35px;
         border: 1px solid black;
+    }
+    .organizations .carousel .card .box:hover{
+        color: yellowgreen;
+        transform: scale(1.05);
     }
     .organizations .carousel .card .box img{
         width: 150px;
@@ -306,6 +315,40 @@ padding-bottom: 20px;
         border-radius: 50%;
         border: 5px solid black;
     }
+
+.Tools .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Tools .icons .top-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Tools .icons .bottom-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ .Tools .icons img{
+     height: 150px;
+     width: 150px;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     transition: all 0.4s ease;
+ }
+ .Tools .icons img:hover{
+    transform: scale(1.05);
+ }
   @media only screen and(max-width: 1300px){
    .home .max-width{
        margin-left: 0px;
