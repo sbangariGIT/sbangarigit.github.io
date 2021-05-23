@@ -216,6 +216,7 @@ transition: all 0.3sec ease;
 .skills .skills-content .card .text{
     font-size: 25px;
     font-weight: 500;
+    font-family: 'Raleway', 'Public Sans';
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -240,6 +241,7 @@ transition: all 0.3sec ease;
     color: black;
     text-align: center;
     font-size: 35px;
+    font-family: 'Raleway', 'Public Sans';
     font-weight: 400;
 }
 .projects .carousel{
@@ -255,6 +257,7 @@ transition: all 0.3sec ease;
     background-color: rgb(235, 231, 231);
     border-radius: 6px;
     padding: 25px 35px;
+    font-family: 'Raleway', 'Public Sans';
     border: 1px solid white;
     border-radius: 15%;
 }
@@ -309,6 +312,7 @@ transition: all 0.3sec ease;
         background-color: rgb(53, 52, 52);
         border-radius: 6px;
         padding: 25px 35px;
+        font-family: 'Raleway', 'Public Sans';
         border: 1px solid black;
         border-radius: 15%;
     }
