@@ -8,6 +8,12 @@
 .sized-box{
     height: 15px;
 }
+.small-sized-box{
+    height: 15px;
+}
+.role{
+    font-size: 15px;
+    }
 .max-width{
     padding: 0 80px;
     max-width: 1300px;
