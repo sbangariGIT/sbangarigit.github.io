@@ -432,6 +432,11 @@ transition: all 0.3sec ease;
     width: 350px;
     margin-left: 200px;
 }
+.contact .row .column-left .icons{
+    display: flex;
+    flex-direction: row;
+
+}
 .contact .row{
     display: flex;
     flex-direction: row;
@@ -439,13 +444,28 @@ transition: all 0.3sec ease;
 }
 .contact .row .column-right .icons{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 270px;
 
+}
+.contact .row .column-left .icons .margin-class{
+   margin-left: 50px; 
+}
+.contact .row .column-left .icons i{
+    font-size: 100px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 50px;
 }
 .contact .row .column-right .icons i{
     font-size: 40px;
     color: #fff;
+}
+.contact .row .column-left .icons img{
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 50px;
 }
 .contact .row .column-right .icons img{
     height: 40px;
